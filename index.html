@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li> <!-- Point to the Projects section -->
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <!-- Left container for image -->
+                <div class="about-image">
+                    <img src="output.jpg" alt="Sakshi Gaikwad" height="250px" width="250px">
+                </div>
+
+                <!-- Right container for description -->
+                <div class="about-description">
+                    <h2>Sakshi Gaikwad</h2>
+                    <p>Hi! I'm Sakshi Gaikwad, a recent B.Sc. IT graduate with a passion for designing and developing visually stunning and functional digital experiences. I love creating user-friendly websites and applications that help people interact with technology in an intuitive way. With a strong background in coding, design principles, and project management, I am ready to contribute to the digital world and help bring ideas to life.</p>
+
+                    <!-- View Profile Button -->
+                    <button type="button" class="button">View Profile</button>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br><br><br><br>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h1>Skills</h1>
+            <div class="skill-grid">
+                <div class="skill-item">
+                    <img src="html.jpg" alt="HTML5">
+                </div>
+                <div class="skill-item">
+                    <img src="css.jpg" alt="CSS">
+                </div>
+                <div class="skill-item">
+                    <img src="js.jpg" alt="JavaScript">
+                </div>
+                <div class="skill-item">
+                    <img src="python.jpg" alt="Python">
+                </div>
+                <div class="skill-item">
+                    <img src="mysql.jpg" alt="MySQL">
+                </div>
+                <div class="skill-item">
+                    <img src="r.jpg" alt="R Programming">
+                </div>
+                <div class="skill-item">
+                    <img src="power.jpg" alt="Power BI">
+                </div>
+                <div class="skill-item">
+                    <img src="cs.jpg" alt="Communication Skills">
+                </div>
+            </div>
+        </section>
+        <br><br><br><br><br><br><br>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <!-- Hospital Management System Project Card -->
+                    <div class="project-card">
+                        <img src="hms.jpg" alt="Hospital Management System">
+                        <div class="project-info">
+                            <h3>Hospital Management System</h3>
+                            <p>This project is a Hospital Management System that helps manage patients, appointments, and medical records.</p>
+                            <h4>Technologies used</h4>
+                            <ul>
+                                <li><a href="#Frontend-Html">HTML</a></li>
+                                <li><a href="#Backendend-Python">Python</a></li>
+                                <li><a href="#Framework-Django">Django</a></li>
+                                <li><a href="#Database-sqlite3">SQLite3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Cakeshop Management System Project Card -->
+                    <div class="project-card">
+                        <img src="console.jpg" alt="Cakeshop Management System">
+                        <div class="project-info">
+                            <h3>Cakeshop Management System</h3>
+                            <p>This is a Hibernate Console-based project for managing the operations of a cakeshop, including orders, inventory, and sales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br><br><br><br><br><br><br>
+        <section id="Contact" class="Contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email" required><br>
+                <label for="Message">Message:</label><br>
+                <textarea id="message" name="message" required> </textarea><br>
+                <input type="Submit" value="Send Message">
+                </form>
+    </div>
+</body>
+</html>
